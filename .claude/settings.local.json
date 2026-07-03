@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"c:\\\\Users\\\\kenam\\\\Downloads\\\\horizons-export-3a4d31bb-6522-4cac-9d6f-a7f38c5ec83e \\(1\\)\\\\apps\\\\web\" && ls && echo \"---src---\" && ls src && echo \"---root images---\" && ls .. -la 2>/dev/null | head -50)",
+      "Read(//c/Users/kenam/Downloads/horizons-export-3a4d31bb-6522-4cac-9d6f-a7f38c5ec83e \\(1\\)/apps/**)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('package.json','utf8'\\)\\).scripts && console.log\\(JSON.stringify\\(JSON.parse\\(require\\('fs'\\).readFileSync\\('package.json','utf8'\\)\\).scripts\\)\\)\")",
+      "Bash(npx vite *)",
+      "Bash(npx eslint *)",
+      "Bash(node -e \"console.log\\(require\\('child_process'\\).execSync\\('npm ls sharp 2>&1'\\).toString\\(\\)\\)\")",
+      "Bash(mkdir -p public/images)",
+      "Bash(cp \"images/AS-0020.jpg\" \"public/images/hero-milling-spindle.jpg\")",
+      "Bash(cp \"images/3E6A1863.jpg\" \"public/images/facility-team.jpg\")",
+      "Bash(cp \"images/3E6A1430.jpg\" \"public/images/precision-detail.jpg\")",
+      "Bash(cp \"images/AS-0016.jpg\" \"public/images/cnc-milling.jpg\")",
+      "Bash(cd \"c:\\\\Users\\\\kenam\\\\Downloads\\\\horizons-export-3a4d31bb-6522-4cac-9d6f-a7f38c5ec83e \\(1\\)\\\\apps\\\\web\" && ls \"../../dist/apps/web\" && du -sh \"../../dist/apps/web\" 2>/dev/null)",
+      "Read(//c/Users/kenam/Downloads/horizons-export-3a4d31bb-6522-4cac-9d6f-a7f38c5ec83e \\(1\\)/dist/apps/web/**)",
+      "Bash(mv src/pages/HomePage.jsx src/components/HomePage.jsx)",
+      "Bash(rmdir src/pages)",
+      "Bash(rm -f src/App.jsx src/main.jsx src/components/ScrollToTop.jsx)",
+      "Bash(rm -f vite.config.js index.html)",
+      "Bash(rm -rf plugins tools)",
+      "Bash(npm install *)",
+      "Bash(npx next *)",
+      "Bash(taskkill //F //IM node.exe //FI \"WINDOWTITLE eq *next*\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 21620)",
+      "Bash(taskkill //F //PID 8988)",
+      "Bash(npm run *)",
+      "Bash(magick -version)",
+      "Bash(convert -version)",
+      "Bash(node -e \"require\\('sharp'\\); console.log\\('sharp ok'\\)\")",
+      "Bash(node scripts/optimize-images.mjs)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

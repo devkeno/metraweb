@@ -1,0 +1,11 @@
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+	# Cache everything on CDN by default
+	Header set Cache-Control "public, s-maxage=604800, max-age=0"
+
+	# Cache in browser all hashed Next.js assets
+	<If "%{REQUEST_URI} =~ m#^/_next/static/.*$#">
+		Header set Cache-Control "public, max-age=31536000, immutable"
+	</If>
+</IfModule>

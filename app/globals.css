@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap');
+@import 'flag-icons/css/flag-icons.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* High-Contrast Dark Theme */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    
+    /* Dark Tokens */
+    --dark-bg: 0 0% 4%;
+    --dark-secondary: 0 0% 8%;
+    --dark-accent: 0 0% 12%;
+    
+    /* Cards */
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 98%;
+    
+    /* Premium Accent #ffb200 */
+    --primary: 42 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 65%;
+    
+    --accent: 42 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 42 100% 50%;
+    --radius: 0.75rem;
+
+    /* Premium Typography Tokens */
+    --heading-letter-spacing: -0.02em;
+    --heading-line-height: 1.15;
+    
+    /* Elegant Heading Variations */
+    --heading-premium-spacing: 0.15em;
+    --subtitle-premium-spacing: 0.3em;
+    --heading-premium-weight: 300;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 42 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 42 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 42 100% 50%;
+    --dark-bg: 0 0% 4%;
+    --dark-secondary: 0 0% 8%;
+    --dark-accent: 0 0% 12%;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "DM Sans", sans-serif;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    overflow-x: clip;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Outfit", sans-serif;
+    text-wrap: balance;
+    letter-spacing: var(--heading-letter-spacing);
+    line-height: var(--heading-line-height);
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .dark .glassmorphism {
+    background: rgba(10, 10, 10, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .glassmorphism-card {
+    background: rgba(15, 15, 15, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .dark .glassmorphism-card {
+    background: rgba(15, 15, 15, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .mission-card {
+    background: linear-gradient(145deg, rgba(30, 30, 30, 0.5) 0%, rgba(15, 15, 15, 0.8) 100%);
+    box-shadow: 0 30px 60px -15px rgba(0,0,0,0.5), inset 0 1px 0 0 rgba(255,255,255,0.05);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Premium Typography & Gradients */
+  .text-gradient-gold {
+    background: linear-gradient(90deg, hsl(var(--primary)) 0%, #ffd666 40%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-silver {
+    background: linear-gradient(90deg, #ffffff 0%, #a0a0a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-glow-accent {
+    text-shadow: 0 0 25px hsl(var(--primary) / 0.4);
+  }
+  
+  .premium-spacing {
+    letter-spacing: 0.15em;
+  }
+
+  /* Refined Heading Classes */
+  .heading-premium {
+    font-weight: var(--heading-premium-weight);
+    letter-spacing: var(--heading-premium-spacing);
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+
+  .subtitle-premium {
+    letter-spacing: var(--subtitle-premium-spacing);
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /* Elegant Visual Separators */
+  .accent-separator {
+    width: 6rem;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, hsl(var(--primary)), transparent);
+    margin: 3rem auto;
+  }
+
+  .accent-line-side {
+    width: 2.5rem;
+    height: 1px;
+    background-color: hsl(var(--primary) / 0.4);
+    display: inline-block;
+  }
+}
