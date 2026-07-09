@@ -82,7 +82,7 @@ const HomePage = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-[#0f1419]/60 via-[#0a0a0a]/80 to-[#0a0a0a]" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-8 py-24 text-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-8 sm:px-8 lg:px-8 py-24 text-center">
           <motion.div
             key={language} // Re-animate on language change
             variants={containerVariants}
@@ -142,7 +142,7 @@ const HomePage = () => {
 
       {/* 2. CNC MILLING */}
       <section id="cnc-milling" className="py-24 bg-[hsl(var(--dark-secondary))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1 rounded-2xl overflow-hidden aspect-[4/3] border border-white/5">
               <img
@@ -184,7 +184,7 @@ const HomePage = () => {
 
       {/* 3. CNC TURNING */}
       <section id="cnc-turning" className="py-24 bg-[hsl(var(--dark-bg))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl md:text-5xl font-bold text-white mb-8">{t('turning.title')}</h2>
@@ -226,7 +226,7 @@ const HomePage = () => {
 
       {/* 4. WELDED CONSTRUCTIONS */}
       <section id="welded" className="py-24 bg-[hsl(var(--dark-secondary))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">{t('welded.title')}</h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
@@ -250,7 +250,7 @@ const HomePage = () => {
 
       {/* 5. QUALITY AND SAFETY */}
       <section id="quality" className="py-24 bg-[hsl(var(--dark-bg))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">{t('quality.title')}</h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">{t('quality.text')}</p>
@@ -268,7 +268,7 @@ const HomePage = () => {
 
       {/* 6. PROJECTS GALLERY */}
       <section id="projects" className="py-24 bg-[hsl(var(--dark-secondary))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">{t('projects.title')}</h2>
             <p className="text-xl text-white/70">{t('projects.subtitle')}</p>
@@ -294,7 +294,7 @@ const HomePage = () => {
 
       {/* 7. HISTORY SECTION */}
       <section id="history" className="py-24 bg-[hsl(var(--dark-bg))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -333,7 +333,7 @@ const HomePage = () => {
 
       {/* 8. ABOUT US */}
       <section id="about" className="py-24 bg-[hsl(var(--dark-secondary))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">{t('about.title')}</h2>
@@ -368,7 +368,7 @@ const HomePage = () => {
         {/* Subtle background glow */}
         <div className="absolute top-0 right-0 -translate-y-12 translate-x-1/4 w-[600px] h-[600px] bg-[#ffb200]/10 rounded-full blur-[120px] pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
 
             {/* Image Side */}
@@ -436,7 +436,7 @@ const HomePage = () => {
 
       {/* 10. PRODUCTION AND TEAM */}
       <section id="team" className="py-24 bg-[hsl(var(--dark-secondary))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <Users className="w-16 h-16 text-[#ffb200] mb-8" />
@@ -496,7 +496,7 @@ const HomePage = () => {
 
       {/* 11. COOPERATION */}
       <section id="cooperation" className="py-24 bg-[hsl(var(--dark-bg))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">{t('partnershipBenefits')}</h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
@@ -534,7 +534,7 @@ const HomePage = () => {
 
       {/* 12. CONTACT SECTION */}
       <section id="contact" className="py-32 bg-[hsl(var(--dark-secondary))]">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">{t('contact.title')}</h2>
           </div>

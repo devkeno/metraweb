@@ -46,7 +46,7 @@ const Header = () => {
           : 'bg-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
+      <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#hero" className="flex items-center gap-3 notranslate" translate="no">
             <div className="w-10 h-10 bg-[#ffb200] rounded-lg flex items-center justify-center">
@@ -131,7 +131,7 @@ const Header = () => {
             transition={{ duration: 0.3 }}
             className="lg:hidden bg-[#0a0a0a] border-t border-white/10"
           >
-            <div className="max-w-7xl mx-auto px-6 py-4 space-y-2">
+            <div className="max-w-7xl mx-auto px-8 py-4 space-y-2">
               {navLinks.map((link) => (
                 <a
                   key={link.path}

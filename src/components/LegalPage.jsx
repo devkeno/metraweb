@@ -23,7 +23,7 @@ export default function LegalPage() {
     <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col">
       <Header />
 
-      <main className="flex-1 max-w-4xl mx-auto w-full px-6 sm:px-8 pt-32 pb-20">
+      <main className="flex-1 max-w-4xl mx-auto w-full px-8 sm:px-8 pt-32 pb-20">
         <a
           href="/"
           suppressHydrationWarning

@@ -30,7 +30,9 @@
       "Bash(convert -version)",
       "Bash(node -e \"require\\('sharp'\\); console.log\\('sharp ok'\\)\")",
       "Bash(node scripts/optimize-images.mjs)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(sed -i 's/px-6 sm:px-8 lg:px-8/px-8 sm:px-8 lg:px-8/g' \"c:\\\\Users\\\\kenam\\\\Downloads\\\\horizons-export-3a4d31bb-6522-4cac-9d6f-a7f38c5ec83e \\(1\\)\\\\apps\\\\web\\\\src\\\\components\\\\Header.jsx\")",
+      "Bash(sed -i 's/max-w-7xl mx-auto px-6 py-4/max-w-7xl mx-auto px-8 py-4/g' \"c:\\\\Users\\\\kenam\\\\Downloads\\\\horizons-export-3a4d31bb-6522-4cac-9d6f-a7f38c5ec83e \\(1\\)\\\\apps\\\\web\\\\src\\\\components\\\\Header.jsx\")"
     ]
   }
 }
