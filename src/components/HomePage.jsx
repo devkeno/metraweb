@@ -78,6 +78,8 @@ const HomePage = () => {
             src="/images/hero-milling-spindle.jpg"
             alt="CNC machining precision manufacturing"
             className="w-full h-full object-cover"
+            fetchPriority="high"
+            loading="eager"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0f1419]/60 via-[#0a0a0a]/80 to-[#0a0a0a]" />
         </div>

@@ -38,6 +38,9 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de" suppressHydrationWarning>
+      <head>
+        <link rel="preload" as="image" href="/images/hero-milling-spindle.jpg" fetchPriority="high" />
+      </head>
       <body suppressHydrationWarning>
         <LanguageProvider>
           <SmoothScroll>{children}</SmoothScroll>
