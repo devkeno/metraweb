@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+Allow: /$
+Disallow: /legal
 
 Sitemap: https://www.metra.ba/sitemap.xml
