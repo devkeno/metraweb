@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Target, ShieldCheck, Clock, Lightbulb, MapPin, CheckCircle2, Users, Settings, Factory, Award, Phone, Mail, Send, GraduationCap, TrendingUp, HeartHandshake as Handshake, Shield, Headphones, DollarSign, Quote } from 'lucide-react';
+import { Target, ShieldCheck, Clock, Lightbulb, MapPin, CheckCircle2, Users, Settings, Factory, Award, Phone, Smartphone, Mail, Send, GraduationCap, TrendingUp, HeartHandshake as Handshake, Shield, Headphones, DollarSign, Quote } from 'lucide-react';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import { useLanguage } from '@/contexts/LanguageContext.jsx';
@@ -554,14 +554,20 @@ const HomePage = () => {
                   </div>
                   <div className="flex items-start gap-5">
                     <div className="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center shrink-0">
+                      <Smartphone className="w-6 h-6 text-[#ffb200]" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-white text-lg mb-1">{t('mobile')}</div>
+                      <div className="text-white/60 text-lg">{t('contact.info.phone2')}</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-5">
+                    <div className="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center shrink-0">
                       <Phone className="w-6 h-6 text-[#ffb200]" />
                     </div>
                     <div>
                       <div className="font-bold text-white text-lg mb-1">{t('directLines')}</div>
-                      <div className="text-white/60 text-lg space-y-1">
-                        <div>{t('contact.info.phone1')}</div>
-                        <div>{t('contact.info.phone2')}</div>
-                      </div>
+                      <div className="text-white/60 text-lg">{t('contact.info.phone1')}</div>
                     </div>
                   </div>
                   <div className="flex items-start gap-5">

@@ -37,8 +37,9 @@ const translations = {
     headquarters: 'Headquarters',
     address: 'Bratstvo 11, BA-72290 Novi Travnik',
     directLines: 'Direct Lines',
+    mobile: 'Mobile',
     phone1: '+387 30 526 117',
-    phone2: '+387 61 536 333',
+    phone2: '+387 60 3239901',
     digital: 'Digital',
     email: 'info@metra.ba',
     website: 'www.metra.ba',
@@ -181,7 +182,7 @@ const translations = {
       info: {
         address: 'Bratstvo 11, BA-72290 Novi Travnik',
         phone1: '+387 30 526 117',
-        phone2: '+387 61 536 333',
+        phone2: '+387 60 3239901',
         email: 'info@metra.ba',
         web: 'www.metra.ba'
       },
@@ -220,8 +221,9 @@ const translations = {
     headquarters: 'Hauptsitz',
     address: 'Bratstvo 11, BA-72290 Novi Travnik',
     directLines: 'Direktleitungen',
+    mobile: 'Mobil',
     phone1: '+387 30 526 117',
-    phone2: '+387 61 536 333',
+    phone2: '+387 60 3239901',
     digital: 'Digital',
     email: 'info@metra.ba',
     website: 'www.metra.ba',
@@ -364,7 +366,7 @@ const translations = {
       info: {
         address: 'Bratstvo 11, BA-72290 Novi Travnik',
         phone1: '+387 30 526 117',
-        phone2: '+387 61 536 333',
+        phone2: '+387 60 3239901',
         email: 'info@metra.ba',
         web: 'www.metra.ba'
       },
@@ -403,8 +405,9 @@ const translations = {
     headquarters: 'Sedište',
     address: 'Bratstvo 11, BA-72290 Novi Travnik',
     directLines: 'Direktne Linije',
+    mobile: 'Mobilni',
     phone1: '+387 30 526 117',
-    phone2: '+387 61 536 333',
+    phone2: '+387 60 3239901',
     digital: 'Digitalno',
     email: 'info@metra.ba',
     website: 'www.metra.ba',
@@ -547,7 +550,7 @@ const translations = {
       info: {
         address: 'Bratstvo 11, BA-72290 Novi Travnik',
         phone1: '+387 30 526 117',
-        phone2: '+387 61 536 333',
+        phone2: '+387 60 3239901',
         email: 'info@metra.ba',
         web: 'www.metra.ba'
       },

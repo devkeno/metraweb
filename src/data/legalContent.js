@@ -84,7 +84,7 @@ export const legalContent = {
         },
         {
           heading: '2. Company Information',
-          body: 'METRA d.o.o., Bratstvo 11, BA-72290 Novi Travnik, Bosnia and Herzegovina. Registered at the Commercial Court in Travnik. Email: info@metra.ba, Phone: +387 30 526 117.'
+          body: 'METRA d.o.o., Bratstvo 11, BA-72290 Novi Travnik, Bosnia and Herzegovina. Registered at the Commercial Court in Travnik. Email: info@metra.ba, Tel.: +387 30 526 117.'
         },
         {
           heading: '3. Use of Website',
@@ -114,7 +114,7 @@ export const legalContent = {
       sections: [
         {
           heading: '1. Data Controller',
-          body: 'The data controller within the meaning of the GDPR is: METRA d.o.o., Bratstvo 11, BA-72290 Novi Travnik, Bosnia and Herzegovina. Email: info@metra.ba, Phone: +387 30 526 117.'
+          body: 'The data controller within the meaning of the GDPR is: METRA d.o.o., Bratstvo 11, BA-72290 Novi Travnik, Bosnia and Herzegovina. Email: info@metra.ba, Tel.: +387 30 526 117.'
         },
         {
           heading: '2. Data Collected',
